@@ -1,0 +1,53 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+}
+
+.botao-1 {
+    color: var(--cor-3);
+    background: var(--cor-1);
+    padding: 10px 18px;
+    border-radius: 4px;
+    font-weight: 300;
+}
+
+.botao-1.seta {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.botao-1.seta::after {
+    content: "";
+    display: inline-block;
+    background: url(../../img/seta.svg) no-repeat;
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+    transition: .3s;
+}
+
+.botao-1.seta:hover::after {
+    transform: translateX(5px);
+}
+
+.botao-2 {
+    color: var(--cor-3);
+    background: var(--cor-1);
+    padding: 0.6rem 1.4rem;
+    border-radius: 4px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.125rem;
+}
+
+.botao-3 {
+    color: var(--cor-3);
+    background: var(--cor-1);
+    padding: 0.6rem 1.4rem;
+    border-radius: 4px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.05rem;
+}

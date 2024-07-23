@@ -1,0 +1,23 @@
+.clients {
+    padding-block: 2rem;
+    padding-top: 2.5rem;
+}
+
+.clients p {
+    text-align: center;
+}
+
+.clients h2 {
+    margin-bottom: 0.8rem;
+}
+
+.clients-img {
+    padding-block: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.clients-img img {
+    width: 60px;
+}

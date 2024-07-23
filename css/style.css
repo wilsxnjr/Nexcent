@@ -1,0 +1,10 @@
+@import './global/global.css';
+@import './header/header.css';
+@import './body/intro.css';
+@import './body/clients.css';
+@import './body/community.css';
+@import './body/unlock.css';
+@import './body/achievements.css';
+@import './cores/cores.css';
+@import './utility/utilitario.css';
+@import './utility/tipografia.css';

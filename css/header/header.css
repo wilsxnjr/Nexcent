@@ -1,0 +1,39 @@
+.header-bg {
+    width: 100%;
+    background: var(--cor-3);
+    height: 75px;
+    position: fixed;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    padding-block: 1.2rem;
+    width: 100%;
+}
+
+.nav, .menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    gap: 2rem;
+}
+
+.menu a {
+    color: var(--cor-2);
+    padding-block: 0.3rem;
+}
+
+.menu a:hover {
+    color: var(--cor-1);
+}
+
+.nav {
+    gap: 2rem;
+}
+
